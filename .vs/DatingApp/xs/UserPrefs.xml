@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{0DF03184-816F-47DF-AA1E-BA5B7B0D247B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/UsersController.cs">
     <Files>
-      <File FileName="API/Entities/AppUser.cs" Line="8" Column="2" />
-      <File FileName="API/API.csproj" Line="1" Column="1" />
-      <File FileName="API/Data/DataContext.cs" Line="13" Column="50" />
-      <File FileName="API/Startup.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/UsersController.cs" Line="10" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DatingApp" expanded="True">
             <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

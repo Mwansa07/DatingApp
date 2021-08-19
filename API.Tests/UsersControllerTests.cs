@@ -8,7 +8,7 @@ using NUnit.Framework;
 namespace API.Tests
 {
     [TestFixture]
-    public class DatingAppApiTests
+    public class UsersControllerTests
     {
         DbContextOptionsBuilder<DataContext> optionsBuilder;
         DataContext dbContext;

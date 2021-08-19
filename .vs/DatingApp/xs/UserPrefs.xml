@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{0DF03184-816F-47DF-AA1E-BA5B7B0D247B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API.Tests/DatingAppApiTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API.Tests/AccountControllerTests.cs">
     <Files>
-      <File FileName="API/Controllers/UsersController.cs" Line="33" Column="10" />
-      <File FileName="API/Startup.cs" />
-      <File FileName="API.Tests/DatingAppApiTests.cs" Line="57" Column="27" />
+      <File FileName="API/Controllers/UsersController.cs" Line="23" Column="62" />
+      <File FileName="API/Controllers/BaseApiController.cs" Line="12" Column="10" />
+      <File FileName="API/Controllers/AccountController.cs" Line="8" Column="47" />
+      <File FileName="API.Tests/UsersControllerTests.cs" Line="11" Column="38" />
+      <File FileName="API.Tests/AccountControllerTests.cs" Line="4" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,11 +13,13 @@
           <Node name="DatingApp" expanded="True">
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+              </Node>
               <Node name="Entities" expanded="True" />
             </Node>
             <Node name="API.Tests" expanded="True">
-              <Node name="DatingAppApiTests.cs" selected="True" />
+              <Node name="AccountControllerTests.cs" selected="True" />
             </Node>
           </Node>
         </State>

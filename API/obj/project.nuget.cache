@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "t4dD96/jUVsEFQsYsn2g7IbpHWH40/dYW/NgNfQF3JNgFH78AhiwZOhn26XCU0P/taHybrkX50m1eN2PCFKq6A==",
+  "dgSpecHash": "oHm8XmGriL6YnjiL9PlvxUY5cYy4aLw+JLliR0JkZ/3yrMjQtLnRQ5rOxeshGpGWGbUG1JWUdkZ3hKC7Q+9z7A==",
   "success": true,
   "projectFilePath": "/Users/mwansapembanyali/Projects/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/mwansapembanyali/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.9/microsoft.aspnetcore.authentication.jwtbearer.5.0.9.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.data.sqlite.core/5.0.9/microsoft.data.sqlite.core.5.0.9.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -28,6 +29,8 @@
     "/Users/mwansapembanyali/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.12.2/microsoft.identitymodel.jsonwebtokens.6.12.2.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.identitymodel.logging/6.12.2/microsoft.identitymodel.logging.6.12.2.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.identitymodel.tokens/6.12.2/microsoft.identitymodel.tokens.6.12.2.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",

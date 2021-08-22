@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Controllers;
 using API.Data;
 using API.DTOs;
 using API.Entities;
+using API.Interfaces;
+using API.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using NUnit.Framework;
 
 namespace API.Tests
@@ -16,6 +20,7 @@ namespace API.Tests
         DbContextOptionsBuilder optionsBuilder;
         DataContext context;
         AccountController accountController;
+        ITokenService tokenService;
 
         [SetUp]
         public void Setup()
@@ -23,7 +28,15 @@ namespace API.Tests
             optionsBuilder = new DbContextOptionsBuilder<DataContext>();
             optionsBuilder.UseInMemoryDatabase("TestDb");
             context = new DataContext(optionsBuilder.Options);
-            accountController = new AccountController(context);
+
+            var testConfig = new Dictionary<string, string>
+            {
+                {"TokenKey", "super secret unguessable key" }
+            };
+            var config = new ConfigurationBuilder().AddInMemoryCollection(testConfig)
+                .Build();
+            tokenService = new TokenService(config);
+            accountController = new AccountController(context, tokenService);
         }
 
         [TearDown]

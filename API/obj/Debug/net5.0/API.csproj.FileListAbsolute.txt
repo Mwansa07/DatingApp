@@ -53,4 +53,3 @@
 /Users/mwansapembanyali/Projects/DatingApp/API/obj/Debug/net5.0/ref/API.dll
 /Users/mwansapembanyali/Projects/DatingApp/API/obj/Debug/net5.0/API.pdb
 /Users/mwansapembanyali/Projects/DatingApp/API/obj/Debug/net5.0/API.genruntimeconfig.cache
-/Users/mwansapembanyali/Projects/DatingApp/API/obj/Debug/net5.0/API.csproj.AssemblyReference.cache

@@ -73,5 +73,71 @@ namespace API.Tests
 
             Assert.IsInstanceOf<BadRequestObjectResult>(result.Result.Result);
         }
+
+        [Test]
+        public void LoginWithCorrectDetails_ReturnsUserInfo_WhenUserExistsAndLoginDetailsAreCorrect()
+        {
+            var testUser = new RegisterDto
+            {
+                Username = "Tom",
+                Password = "StrangerThings"
+            };
+
+            _ = accountController.Register(testUser);
+
+            var loginUser = new LoginDto
+            {
+                Username = "tom",
+                Password = "StrangerThings"
+            };
+
+            var result = accountController.Login(loginUser);
+
+            Assert.That(loginUser.Username, Is.EqualTo(result.Result.Value.Username));
+        }
+
+        [Test]
+        public void LoginWithIncorrectDetails_ReturnsUnauthorizedError_WhenUsernameIsIncorrect()
+        {
+            var testUser = new RegisterDto
+            {
+                Username = "Tom",
+                Password = "StrangerThings"
+            };
+
+            _ = accountController.Register(testUser);
+
+            var loginUser = new LoginDto
+            {
+                Username = "Adam",
+                Password = "StrangerThings"
+            };
+
+            var result = accountController.Login(loginUser);
+
+            Assert.IsInstanceOf<UnauthorizedObjectResult>(result.Result.Result);
+        }
+
+        [Test]
+        public void LoginWithIncorrectDetails_ReturnsUnauthorizedError_WhenPasswordIsIncorrect()
+        {
+            var testUser = new RegisterDto
+            {
+                Username = "Tom",
+                Password = "StrangerThings"
+            };
+
+            _ = accountController.Register(testUser);
+
+            var loginUser = new LoginDto
+            {
+                Username = "tom",
+                Password = "ApplesAndOranges"
+            };
+
+            var result = accountController.Login(loginUser);
+
+            Assert.IsInstanceOf<UnauthorizedObjectResult>(result.Result.Result);
+        }
     }
 }

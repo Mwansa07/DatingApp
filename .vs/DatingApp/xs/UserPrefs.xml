@@ -1,29 +1,32 @@
 ﻿<Properties StartupConfiguration="{0DF03184-816F-47DF-AA1E-BA5B7B0D247B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API.Tests/AccountControllerTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
     <Files>
-      <File FileName="API.Tests/AccountControllerTests.cs" Line="90" Column="34" />
+      <File FileName="API.Tests/AccountControllerTests.cs" Line="126" Column="34" />
       <File FileName="API/DTOs/RegisterDto.cs" />
-      <File FileName="API/Controllers/AccountController.cs" Line="54" Column="14" />
+      <File FileName="API/Controllers/AccountController.cs" Line="64" Column="61" />
       <File FileName="API/DTOs/LoginDto.cs" />
+      <File FileName="API/Interfaces/ITokenService.cs" Line="8" Column="42" />
+      <File FileName="API/Services/TokenService.cs" Line="15" Column="1" />
+      <File FileName="API/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DatingApp" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-            </Node>
-            <Node name="API.Tests" expanded="True">
-              <Node name="AccountControllerTests.cs" selected="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DatingApp" expanded="True" selected="True" />
+          <Node name="DatingApp" expanded="True" selected="True">
+            <Node name="API.Tests" expanded="True">
+              <Node name="API.Tests" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -32,9 +35,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/mwansapembanyali/Projects/DatingApp/API.Tests/AccountControllerTests.cs" relfile="API.Tests/AccountControllerTests.cs" line="86" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

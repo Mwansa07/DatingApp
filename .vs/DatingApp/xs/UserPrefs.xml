@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{0DF03184-816F-47DF-AA1E-BA5B7B0D247B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/ApplicationServiceExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Services/TokenService.cs">
     <Files>
-      <File FileName="API/Controllers/AccountController.cs" Line="79" Column="15" />
-      <File FileName="API/Services/TokenService.cs" Line="19" Column="84" />
-      <File FileName="API/DTOs/UserDto.cs" Line="1" Column="1" />
-      <File FileName="API.Tests/AccountControllerTests.cs" Line="43" Column="30" />
-      <File FileName="API/appsettings.Development.json" Line="5" Column="44" />
-      <File FileName="API/Controllers/UsersController.cs" Line="23" Column="18" />
-      <File FileName="API/Startup.cs" Line="82" Column="42" />
-      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="4" Column="18" />
-      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="1" Column="1" />
+      <File FileName="API/Services/TokenService.cs" Line="40" Column="49" />
+      <File FileName="API/Controllers/AccountController.cs" />
+      <File FileName="API/Controllers/UsersController.cs" />
+      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" />
+      <File FileName="API/Extensions/IdentityServiceExtensions.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DatingApp" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="Extensions" expanded="True">
-                <Node name="ApplicationServiceExtensions.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="TokenService.cs" selected="True" />
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="API.Tests" expanded="True" />
           </Node>
@@ -26,14 +26,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="DatingApp" expanded="True" selected="True">
-            <Node name="API.Tests" expanded="True">
-              <Node name="API.Tests" expanded="True">
-                <Node name="AccountControllerTests" expanded="True" />
-                <Node name="UsersControllerTests" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="DatingApp" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

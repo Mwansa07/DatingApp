@@ -1,26 +1,21 @@
 ﻿<Properties StartupConfiguration="{0DF03184-816F-47DF-AA1E-BA5B7B0D247B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Services/TokenService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Middleware/ExceptionMiddleware.cs">
     <Files>
-      <File FileName="API/Services/TokenService.cs" Line="40" Column="49" />
-      <File FileName="API/Controllers/AccountController.cs" />
-      <File FileName="API/Controllers/UsersController.cs" />
-      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" />
-      <File FileName="API/Extensions/IdentityServiceExtensions.cs" />
+      <File FileName="API/Controllers/BuggyController.cs" Line="54" Column="1" />
+      <File FileName="API/DTOs/RegisterDto.cs" Line="16" Column="1" />
+      <File FileName="API/Startup.cs" Line="59" Column="1" />
+      <File FileName="API/Errors/ApiException.cs" Line="18" Column="1" />
+      <File FileName="API/Middleware/ExceptionMiddleware.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DatingApp" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="TokenService.cs" selected="True" />
+              <Node name="Middleware" expanded="True">
+                <Node name="ExceptionMiddleware.cs" selected="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
-            <Node name="API.Tests" expanded="True" />
           </Node>
         </State>
       </Pad>

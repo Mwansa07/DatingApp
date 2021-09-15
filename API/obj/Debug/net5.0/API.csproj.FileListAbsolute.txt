@@ -61,3 +61,6 @@
 /Users/mwansapembanyali/Projects/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
 /Users/mwansapembanyali/Projects/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/mwansapembanyali/Projects/DatingApp/API/obj/Debug/net5.0/API.csproj.AssemblyReference.cache
+/Users/mwansapembanyali/Projects/DatingApp/API/bin/Debug/net5.0/Data/UserSeedData.json
+/Users/mwansapembanyali/Projects/DatingApp/API/bin/Debug/net5.0/AutoMapper.dll
+/Users/mwansapembanyali/Projects/DatingApp/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

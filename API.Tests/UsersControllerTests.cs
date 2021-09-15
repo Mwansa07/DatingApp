@@ -48,7 +48,7 @@ namespace API.Tests
         [Test]
         public void GetSingleUser_ReturnZeroUsers_WhenDatabaseIsEmpty()
         {
-            var result = usersController.GetUser(1);
+            var result = usersController.GetUser("Adam");
 
             Assert.Null(result.Result.Value);
         }
@@ -106,7 +106,7 @@ namespace API.Tests
 
             dbContext.SaveChanges();
 
-            var result = usersController.GetUser(2);
+            var result = usersController.GetUser("Deji");
 
             Assert.That(result.Result.Value.Id, Is.EqualTo(2));
             Assert.AreEqual("Tom", result.Result.Value.Username);

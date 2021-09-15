@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RqxpofnR57kT8jDUcvPMp+DhUvdvhqR8jHZKFkRpJqVP8qFzaqE8JtivN1t0g13iPXoDIvTo5sL0hrcCcpateg==",
+  "dgSpecHash": "qJtNXebtURVcsq0S/DtyO/kxsUw2WPRFkWgLLMiWPRA3l7b1e55BfNPEPJDW6o1+tZjbf2lutfejQwAZ0X4AYw==",
   "success": true,
   "projectFilePath": "/Users/mwansapembanyali/Projects/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/mwansapembanyali/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.9/microsoft.aspnetcore.authentication.jwtbearer.5.0.9.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -37,15 +39,16 @@
     "/Users/mwansapembanyali/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.4/sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
-    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore/6.1.5/swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
-    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.5/swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
-    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.5/swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
-    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.5/swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore/6.2.1/swashbuckle.aspnetcore.6.2.1.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.1/swashbuckle.aspnetcore.swagger.6.2.1.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.1/swashbuckle.aspnetcore.swaggergen.6.2.1.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.1/swashbuckle.aspnetcore.swaggerui.6.2.1.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/system.identitymodel.tokens.jwt/6.12.2/system.identitymodel.tokens.jwt.6.12.2.nupkg.sha512",
     "/Users/mwansapembanyali/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/mwansapembanyali/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
